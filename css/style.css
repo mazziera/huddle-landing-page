@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 body{
-    height: 98vh;
+    min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
@@ -9,28 +9,28 @@ body{
 }
 
 .header{
-    margin: 10px 40px;
+    margin: auto;
 }
 
 .container{
-    margin: 10px 40px;
+    margin: auto;
+    max-width: 100%;
 }
 
 .container .infos{
     width: 100%;
-    height: 100%;
     display: flex;
 }
 
 .cabecalho .infos .illustration img{
+    max-width: 100%;
     display: flex;
-    width: 100%;
 }
 
 .container .infos .description{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
     margin: 40px 40px;
 }
 
@@ -59,7 +59,7 @@ body{
     text-align: center;
     padding: 10px 55px;
     border-radius: 30px;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.651);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.651);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -74,8 +74,13 @@ body{
     font-size: xx-large;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    transition: 0.5s ;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.social > a{
+   max-width: 31px;
+ 
 }
 
 .social .fab:hover{
