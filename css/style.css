@@ -8,8 +8,10 @@ body{
     background-color:  hsl(257, 40%, 49%);
 }
 
-.header{
-    margin: auto;
+.logo{
+    padding-left: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -24,7 +26,6 @@ body{
 
 .cabecalho .infos .illustration img{
     max-width: 100%;
-    display: flex;
 }
 
 .container .infos .description{
@@ -35,7 +36,7 @@ body{
 }
 
 .container .infos .description h1{
-    width: 100%;
+    max-width: 100%;
     font-size: 40px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -45,7 +46,7 @@ body{
 }
 
 .container .infos .description p {
-    width: 100%;
+    max-width: 100%;
     font-weight: 400;
     color: #FFFFFF;
     margin-bottom: 30px;
@@ -94,5 +95,5 @@ body{
 }
 
 
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }  */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(220, 20%, 94%); } 
